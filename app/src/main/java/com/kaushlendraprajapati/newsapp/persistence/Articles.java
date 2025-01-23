@@ -9,7 +9,6 @@ import java.util.Date;
 public class Articles extends com.kaushlendraprajapati.newsapp.modals.Article {
     @PrimaryKey(autoGenerate = true)
     public int id;
-
     public String author;
     public String title;
     public String description;
@@ -19,4 +18,3 @@ public class Articles extends com.kaushlendraprajapati.newsapp.modals.Article {
     public String content;
     public String category;
 }
-

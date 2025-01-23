@@ -46,7 +46,7 @@ public class ArticleViewHolder extends RecyclerView.ViewHolder {
         save=itemView.findViewById(R.id.image_download);
         share=itemView.findViewById(R.id.image_share);
 
-        // save imgae
+        // save image
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,6 @@ public class ArticleViewHolder extends RecyclerView.ViewHolder {
         });
 
         // share news with content
-
         share.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -12,13 +13,16 @@
         android:layout_width="match_parent"
         android:background="@color/white"
         app:tabTextColor="@color/black"
+        app:tabIndicatorColor="@color/red"
+        android:elevation="10dp"
+        app:tabMode="scrollable"
         app:tabSelectedTextColor="#D50000"
-        android:layout_height="70dp" />
+        android:layout_height="60dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:background="@color/black"
         android:layout_height="0dp"
         android:layout_weight="1" />
+
 </LinearLayout>

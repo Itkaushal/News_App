@@ -1,9 +1,12 @@
 package com.kaushlendraprajapati.newsapp.viewmodal;
 
 import android.app.Application;
+
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
+import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+
 import com.kaushlendraprajapati.newsapp.modals.Article;
 import com.kaushlendraprajapati.newsapp.repository.NewsRepository;
 
@@ -18,6 +21,10 @@ public class NewsViewModal extends AndroidViewModel {
     }
 
     public MutableLiveData<List<Article>> getArticles(String category) {
-        return newsRepository.getArticles("in", category); // Make sure the return type matches
+        return newsRepository.getArticles("in", category);
+    }
+
+    public LiveData<List<Article>> searchArticles(String query) {
+        return newsRepository.getArticles("in",query);
     }
 }
