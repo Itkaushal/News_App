@@ -110,9 +110,13 @@ If you liked this project, don’t forget to **give it a star ⭐** on GitHub!
 📌 **GitHub Repo:** [News MVVM App](https://github.com/Itkaushal/News_App/)
 
 🚀 Happy Coding! 🎉
-
+Breaking News Screen:
 ![1](https://github.com/user-attachments/assets/d433921a-db18-4181-ac13-4505dd9d81dc)
+
+Search News Screen:
 ![2](https://github.com/user-attachments/assets/3d6b5ed1-2d04-4abc-b935-6812268d8c0d)
+
+SavedScreen:
 ![3](https://github.com/user-attachments/assets/9550fb41-338e-40c0-b08f-c2f7b3187091)
 
 
